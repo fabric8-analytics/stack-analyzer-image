@@ -1,4 +1,5 @@
 # f8a-sa-image
+Source code for generating the docker image that initiates stack analysis for a volume mounted code repository and writes the result in a file `response.json` in the same repository. Currently, running this image can analyze NPM and PYPI application stacks.
 
 ## Build
 
