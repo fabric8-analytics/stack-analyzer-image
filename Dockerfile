@@ -11,7 +11,6 @@ RUN useradd -d /coreapi coreapi
 COPY main.py /coreapi/main.py
 RUN chmod +x /coreapi/main.py
 
-COPY package.json /coreapi/package.json
 COPY requirements.txt /coreapi/requirements.txt
 RUN pip3 install -r /coreapi/requirements.txt
 
