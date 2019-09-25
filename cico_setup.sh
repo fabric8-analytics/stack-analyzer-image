@@ -36,8 +36,6 @@ build_image() {
         echo "Could not login, missing credentials for the registry"
         exit 1
     fi
-    # Also runs the recipe for docker-build
-    make docker-build-test
 }
 
 tag_push() {
