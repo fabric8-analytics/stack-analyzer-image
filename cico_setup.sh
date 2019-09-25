@@ -69,5 +69,6 @@ push_image() {
     echo 'CICO: Image pushed, ready to update deployed app'
 }
 
+
 load_jenkins_vars
 prep
