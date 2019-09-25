@@ -36,6 +36,7 @@ build_image() {
         echo "Could not login, missing credentials for the registry"
         exit 1
     fi
+    make docker-build
 }
 
 tag_push() {
@@ -68,7 +69,6 @@ push_image() {
 
     echo 'CICO: Image pushed, ready to update deployed app'
 }
-
 
 load_jenkins_vars
 prep
